@@ -35,6 +35,17 @@
             <target>1.6</target>
           </configuration>
         </plugin>
+        <plugin>
+          <groupId>com.kitware.maven.plugins</groupId>
+          <artifactId>maven-cdash-plugin</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
+          <configuration>
+            <site>ulmus</site>
+            <url>http://trunk.cdash.org</url>
+            <project>TestDashboard</project>
+          </configuration>
+        </plugin>
+
       </plugins>
     </pluginManagement>
   </build>
@@ -45,11 +56,6 @@
           <groupId>com.kitware.maven.plugins</groupId>
           <artifactId>maven-cdash-plugin</artifactId>
           <version>0.0.1-SNAPSHOT</version>
-          <configuration>
-            <site>ulmus</site>
-            <url>http://trunk.cdash.org</url>
-            <project>TestDashboard</project>
-          </configuration>
         </plugin>
     </plugins>
   </reporting>
