@@ -49,7 +49,6 @@
             <site>ulmus</site>
             <url>http://trunk.cdash.org</url>
             <project>TestDashboard</project>
-            <track>Experimental</track>
           </configuration>
         </plugin>
     </plugins>
