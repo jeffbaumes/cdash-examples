@@ -10,3 +10,4 @@ c++-cmake/Makefile
 c++-cmake/cmake_install.cmake
 c++-cmake/libfoo.*
 c++-cmake/test_foo
+c++-other/test_foo
