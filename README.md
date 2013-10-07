@@ -1,5 +1,9 @@
 # Simple CDash Examples
 
+## Setup
+
+The default setup in this repository will send all testing data to the [TestDashboard CDash page](http://trunk.cdash.org/index.php?project=TestDashboard). To make your own project to try out, go to [my.cdash.org](http://my.cdash.org/) and click "Start my Dashboard".
+
 ## [C++ using CMake](c++-cmake)
 
 This is an example of using CDash in combination with CMake in a C++ project, which is the most automated and convenient way to use CDash.
