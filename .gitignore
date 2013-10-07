@@ -4,10 +4,5 @@ target
 *.pyc
 CMakeCache.txt
 CMakeFiles
-c++-cmake/CTestTestfile.cmake
-c++-cmake/DartConfiguration.tcl
-c++-cmake/Makefile
-c++-cmake/cmake_install.cmake
-c++-cmake/libfoo.*
-c++-cmake/test_foo
+c++-cmake/build
 c++-other/test_foo
