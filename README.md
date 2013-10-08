@@ -1,8 +1,61 @@
 # Simple CDash Examples
 
+Jump to instructions for
+* [Java](#java-using-maven-and-junit)
+
 ## Setup
 
 The default setup in this repository will send all testing data to the [TestDashboard CDash page](http://trunk.cdash.org/index.php?project=TestDashboard). To make your own project CDash page, go to [my.cdash.org](http://my.cdash.org/) and click "Start my dashboard".
+
+In the screen that follows, specify you want a new account:
+
+![Create account](images/create-account-1.png)
+
+Then fill in your information:
+
+![Create account](images/create-account-2.png)
+
+Then login to CDash:
+
+![Login](images/login.png)
+
+CDash will automatically start you on creating a new project. Fill in basic information:
+
+![Project setup](images/project-setup-1.png)
+
+Repository information (optional):
+
+![Project setup](images/project-setup-2.png)
+
+Enter code metrics information (normally keep defaults):
+
+![Project setup](images/project-setup-3.png)
+
+Set notification options:
+
+![Project setup](images/project-setup-4.png)
+
+Stick with the free edition. This just applies to http://my.cdash.org sites where due to server constraints we limit free dashboards to 10 submissions a day:
+
+![Project setup](images/project-setup-5.png)
+
+You can skip sending invites:
+
+![Project setup](images/project-setup-6.png)
+
+Then you can just click "Upgrade later" on http://my.cdash.org:
+
+![Project setup](images/project-setup-7.png)
+
+Once this is done, you will see your project on your CDash admin page:
+
+![Admin page](images/main-screen.png)
+
+Click on the Edit project button ![Edit project](images/edit-project-button.png) to see and edit your project's settings. Download the `CTestConfig.cmake` file from the Miscellaneous tab. This file tells CMake where to submit your project's tests. It can also be adapted to a CTest-only project's `DartConfiguration.ini` file.
+
+![CTest configuration](images/ctest-config.png)
+
+It is good practice to commit this file into your source repository so others will know how to submit tests for your project.
 
 ## [C++ using CMake](c++-cmake)
 
