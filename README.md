@@ -1,6 +1,6 @@
 # Simple CDash Examples
 
-This repository is meant to help get people started in using CDash, in particular for projects whose main codebase is not C++. Please also see the CDash [main page](http://cdash.org/) and [wiki](http://public.kitware.com/Wiki/CDash) for further information.
+This repository is meant to help get people started in using CDash, in particular for projects not using CMake as a build system. Please also see the CDash [main page](http://cdash.org/) and [wiki](http://public.kitware.com/Wiki/CDash) for further information.
 
 Jump to instructions for
 * [C++ (CMake)](#c-using-cmake)
